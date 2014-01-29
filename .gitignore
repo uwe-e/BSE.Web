@@ -106,6 +106,8 @@ csx
 # Windows Store app package directory
 AppPackages/
 
+*.pfx
+
 # Others
 sql/
 *.Cache
