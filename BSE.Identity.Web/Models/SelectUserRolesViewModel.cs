@@ -1,11 +1,9 @@
-﻿using System;
+﻿using BSE.Identity.Web.Models.EntityFramework;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace BSE.Identity.Web.Models
 {
-	public class SelectUserRolesViewModel
+    public class SelectUserRolesViewModel
 	{
 		public SelectUserRolesViewModel()
 		{

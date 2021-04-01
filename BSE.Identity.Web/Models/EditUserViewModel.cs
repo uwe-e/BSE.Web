@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
+﻿using BSE.Identity.Web.Models.EntityFramework;
 using DataAnnotationsExtensions;
+using System.ComponentModel.DataAnnotations;
 
 namespace BSE.Identity.Web.Models
 {

@@ -1,13 +1,11 @@
-﻿using BSE.Identity.Web.Models;
-using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
-using System.Linq;
+﻿using BSE.Identity.Web.Models.EntityFramework;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
 
 namespace BSE.Identity.Web.Entity
 {
-	public class MySqlInitializer : CreateDatabaseIfNotExists<ApplicationDbContext>
+    public class MySqlInitializer : CreateDatabaseIfNotExists<ApplicationDbContext>
 	{
 		protected override void Seed(ApplicationDbContext context)
 		{

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using BSE.Identity.Web.Models;
+using BSE.Identity.Web.Models.EntityFramework;
 
 namespace BSE.Identity.Web.Controllers
 {

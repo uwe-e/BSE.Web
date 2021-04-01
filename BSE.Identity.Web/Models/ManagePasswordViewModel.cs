@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using BSE.Identity.Web.Models.EntityFramework;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
 namespace BSE.Identity.Web.Models
 {
-	public class ManagePasswordViewModel
+    public class ManagePasswordViewModel
 	{
 		public ManagePasswordViewModel()
 		{
