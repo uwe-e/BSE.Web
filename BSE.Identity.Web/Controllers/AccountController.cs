@@ -50,7 +50,7 @@ namespace BSE.Identity.Web.Controllers
 		public ActionResult Login(string returnUrl)
 		{
 			ViewBag.ReturnUrl = returnUrl;
-			return View();
+			return View(new LoginViewModel());
 		}
 
 		//
@@ -83,7 +83,7 @@ namespace BSE.Identity.Web.Controllers
 		[Authorize(Roles = "administrator")]
 		public ActionResult Register()
 		{
-			return View();
+			return View(new RegisterViewModel());
 		}
 
 		//
@@ -164,10 +164,7 @@ namespace BSE.Identity.Web.Controllers
 			{
 				// User does not have a password so remove any validation errors caused by a missing OldPassword field
 				ModelState state = ModelState["OldPassword"];
-				if (state != null)
-				{
-					state.Errors.Clear();
-				}
+				state?.Errors.Clear();
 
 				if (ModelState.IsValid)
 				{
@@ -315,7 +312,6 @@ namespace BSE.Identity.Web.Controllers
 			return View(model);
 		}
 
-
 		[HttpPost, ActionName("Delete")]
 		[ValidateAntiForgeryToken]
 		[Authorize(Roles = "administrator")]
@@ -331,7 +327,7 @@ namespace BSE.Identity.Web.Controllers
 		[Authorize(Roles = "administrator")]
 		public ActionResult CreateRole()
 		{
-			return View();
+			return View(new CreateRoleViewModel());
 		}
 
 		// POST: /Account/Register

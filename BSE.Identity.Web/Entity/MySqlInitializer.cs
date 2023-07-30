@@ -22,16 +22,18 @@ namespace BSE.Identity.Web.Entity
 			//Create Role Admin if it does not exist
 			if (!roleManager.RoleExists(roleName))
 			{
-				var roleresult = roleManager.Create(new IdentityRole(roleName));
+				roleManager.Create(new IdentityRole(roleName));
 			}
-			//Create User=Admin with password=123456
-			var user = new ApplicationUser();
-			user.UserName = "admin@bsetunes.com";
-			var adminresult = userManager.Create(user, password);
+            //Create User=Admin with password=123456
+            var user = new ApplicationUser
+            {
+                UserName = "admin@bsetunes.com"
+            };
+            var adminresult = userManager.Create(user, password);
 			//Add User Admin to Role Admin
 			if (adminresult.Succeeded)
 			{
-				var result = userManager.AddToRole(user.Id, roleName);
+                userManager.AddToRole(user.Id, roleName);
 			}
 			base.Seed(context);
 		}

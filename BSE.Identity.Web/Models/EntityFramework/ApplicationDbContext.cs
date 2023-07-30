@@ -6,7 +6,6 @@ namespace BSE.Identity.Web.Models.EntityFramework
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-		DbSet<RefreshToken> RefreshTokens { get; set; }
 		static ApplicationDbContext()
 		{
 			Database.SetInitializer(new MySqlInitializer());

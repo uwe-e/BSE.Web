@@ -8,9 +8,10 @@ namespace BSE.Identity.Web.Models.EntityFramework
         [StringLength(500)]
         public string Id { get; set; }
         public string UserName { get; set; }
-        public DateTime IssuedTime { get; set; }
-        public DateTime ExpirationTime { get; set; }
-        //[Column(TypeName = "varchar(500)")]
+        public string SubjectId { get; set; }
+        public DateTime CreationTime { get; set; }
+        public int LifeTime { get; set; }
+        [StringLength(1000)]
         public string SerializedTicket { get; set; }
     }
 }
