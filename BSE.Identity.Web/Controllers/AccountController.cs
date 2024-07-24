@@ -44,6 +44,7 @@ namespace BSE.Identity.Web.Controllers
 			this.RoleManager = roleManager;
 		}
 
+
 		//
 		// GET: /Account/Login
 		[AllowAnonymous]
@@ -372,7 +373,7 @@ namespace BSE.Identity.Web.Controllers
 				{
 					foreach (var role in user.Roles)
 					{
-						this.UserManager.RemoveFromRole(user.Id, role.Role.Name);
+						this.UserManager.RemoveFromRole(user.Id, role.RoleId);
 					}
 					foreach (var role in model.Roles)
 					{

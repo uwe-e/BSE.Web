@@ -34,7 +34,7 @@ namespace BSE.Identity.Web.Models
 			foreach (var userRole in user.Roles)
 			{
 				var checkUserRole =
-					this.Roles.Find(r => r.RoleName == userRole.RoleId);
+					this.Roles.Find(r => r.RoleName == userRole.Role.Name);
 				checkUserRole.Selected = true;
 			}
 		}
