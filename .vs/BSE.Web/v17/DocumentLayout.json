@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Git\\BSE.Web\\",
+  "WorkspaceRootPath": "C:\\Git\\ASP.Net\\BSE.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D3D0057-030A-4100-B931-17560CE4D3C7}|BSE.Identity.Web\\BSE.Identity.Web.csproj|c:\\git\\bse.web\\bse.identity.web\\views\\account\\userroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D3D0057-030A-4100-B931-17560CE4D3C7}|BSE.Identity.Web\\BSE.Identity.Web.csproj|solutionrelative:bse.identity.web\\views\\account\\userroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Views\\Account\\UserRoles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BSE.Identity.Web\\Views\\Account\\UserRoles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D3D0057-030A-4100-B931-17560CE4D3C7}|BSE.Identity.Web\\BSE.Identity.Web.csproj|C:\\Git\\BSE.Web\\bse.identity.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D3D0057-030A-4100-B931-17560CE4D3C7}|BSE.Identity.Web\\BSE.Identity.Web.csproj|solutionrelative:bse.identity.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BSE.Identity.Web\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D3D0057-030A-4100-B931-17560CE4D3C7}|BSE.Identity.Web\\BSE.Identity.Web.csproj|C:\\Git\\BSE.Web\\bse.identity.web\\entity\\mysqlinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D3D0057-030A-4100-B931-17560CE4D3C7}|BSE.Identity.Web\\BSE.Identity.Web.csproj|solutionrelative:bse.identity.web\\entity\\mysqlinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Entity\\MySqlInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BSE.Identity.Web\\Entity\\MySqlInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D3D0057-030A-4100-B931-17560CE4D3C7}|BSE.Identity.Web\\BSE.Identity.Web.csproj|C:\\Git\\BSE.Web\\bse.identity.web\\entity\\migrations\\history\\mysqlhistorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D3D0057-030A-4100-B931-17560CE4D3C7}|BSE.Identity.Web\\BSE.Identity.Web.csproj|solutionrelative:bse.identity.web\\entity\\migrations\\history\\mysqlhistorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Entity\\Migrations\\History\\MySqlHistoryContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BSE.Identity.Web\\Entity\\Migrations\\History\\MySqlHistoryContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,6 +28,10 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -45,18 +49,14 @@
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserRoles.cshtml",
-              "DocumentMoniker": "C:\\Git\\BSE.Web\\BSE.Identity.Web\\Views\\Account\\UserRoles.cshtml",
+              "DocumentMoniker": "C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Views\\Account\\UserRoles.cshtml",
               "RelativeDocumentMoniker": "BSE.Identity.Web\\Views\\Account\\UserRoles.cshtml",
-              "ToolTip": "C:\\Git\\BSE.Web\\BSE.Identity.Web\\Views\\Account\\UserRoles.cshtml",
+              "ToolTip": "C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Views\\Account\\UserRoles.cshtml",
               "RelativeToolTip": "BSE.Identity.Web\\Views\\Account\\UserRoles.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAqwB0AAAAPAAAA",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwB0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2023-10-20T08:13:44.272Z",
               "EditorCaption": ""
@@ -65,37 +65,40 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Git\\BSE.Web\\BSE.Identity.Web\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "BSE.Identity.Web\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Git\\BSE.Web\\BSE.Identity.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Controllers\\AccountController.cs",
               "RelativeToolTip": "BSE.Identity.Web\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAFIBAAAAAAAAAAAnwGoBAAAMAAAA",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAnwB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-09-23T05:37:38.193Z"
+              "WhenOpened": "2023-09-23T05:37:38.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MySqlInitializer.cs",
-              "DocumentMoniker": "C:\\Git\\BSE.Web\\BSE.Identity.Web\\Entity\\MySqlInitializer.cs",
+              "DocumentMoniker": "C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Entity\\MySqlInitializer.cs",
               "RelativeDocumentMoniker": "BSE.Identity.Web\\Entity\\MySqlInitializer.cs",
-              "ToolTip": "C:\\Git\\BSE.Web\\BSE.Identity.Web\\Entity\\MySqlInitializer.cs",
+              "ToolTip": "C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Entity\\MySqlInitializer.cs",
               "RelativeToolTip": "BSE.Identity.Web\\Entity\\MySqlInitializer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAuAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-09-23T08:34:49.419Z"
+              "WhenOpened": "2023-09-23T08:34:49.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MySqlHistoryContext.cs",
-              "DocumentMoniker": "C:\\Git\\BSE.Web\\BSE.Identity.Web\\Entity\\Migrations\\History\\MySqlHistoryContext.cs",
+              "DocumentMoniker": "C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Entity\\Migrations\\History\\MySqlHistoryContext.cs",
               "RelativeDocumentMoniker": "BSE.Identity.Web\\Entity\\Migrations\\History\\MySqlHistoryContext.cs",
-              "ToolTip": "C:\\Git\\BSE.Web\\BSE.Identity.Web\\Entity\\Migrations\\History\\MySqlHistoryContext.cs",
+              "ToolTip": "C:\\Git\\ASP.Net\\BSE.Web\\BSE.Identity.Web\\Entity\\Migrations\\History\\MySqlHistoryContext.cs",
               "RelativeToolTip": "BSE.Identity.Web\\Entity\\Migrations\\History\\MySqlHistoryContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-10-10T12:28:15.296Z"
+              "WhenOpened": "2023-10-10T12:28:15.296Z",
+              "EditorCaption": ""
             }
           ]
         }
